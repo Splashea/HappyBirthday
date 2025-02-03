@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ucapan Ulang Tahun Spesial</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Menggunakan Google Fonts untuk tampilan yang lebih menarik -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Background animasi berbasis CSS -->
+  <div class="background-animation"></div>
+
+  <!-- Header dengan animasi teks -->
+  <header>
+    <h1 class="title">Happy Birthday Adekk!</h1>
+  </header>
+
+  <!-- Section Ucapan -->
+  <section class="greeting-section">
+    <div class="greeting-box">
+      <h2 id="birthdayGreeting"></h2>
+      <p id="message"></p>
+      <div class="buttons">
+        <button id="playConfetti" class="btn">Yippiii!</button>
+        <button id="playMusic" class="btn">Dance with me!</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeri Kenangan -->
+  <section class="gallery">
+    <h2>Galeri Kenangan</h2>
+    <div class="gallery-container">
+      <!-- Ganti src dengan path gambar yang Anda miliki -->
+      <img src="images/img1.jpg" alt="Momen 1" />
+      <img src="images/img2.jpg" alt="Momen 2" />
+      <img src="images/img3.jpg" alt="Momen 3" />
+      <img src="images/img4.jpg" alt="Momen 4" />
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Ucapan untuk adek Vania. Dibuat dengan cinta🤍.</p>
+  </footer>
+
+  <!-- Audio background music -->
+  <audio id="bgMusic" src="music/Cherrywine.mp3" loop></audio>
+
+  <!-- Library canvas-confetti untuk efek confetti -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
